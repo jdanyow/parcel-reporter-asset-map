@@ -7,3 +7,4 @@ tests/fixtures/*
 !tests/fixtures/.parcelrc
 !tests/fixtures/package.json
 !tests/fixtures/gold-map.json
+package-lock.json

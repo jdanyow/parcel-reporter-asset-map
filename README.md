@@ -1,7 +1,7 @@
 # parcel-reporter-asset-map
 
-![npm](https://img.shields.io/npm/v/@hyqo/parcel-reporter-asset-map)
-![npm peer dependency version](https://img.shields.io/npm/dependency-version/@hyqo/parcel-reporter-asset-map/peer/parcel)
+![npm](https://img.shields.io/npm/v/@jdanyow/parcel-reporter-asset-map)
+![npm peer dependency version](https://img.shields.io/npm/dependency-version/@jdanyow/parcel-reporter-asset-map/peer/parcel)
 
 This will add `asset-map.json` to the target dir. Example:
 
