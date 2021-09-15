@@ -91,8 +91,9 @@ export default new Reporter({
                 }
             }
 
-            const assetMapPath = path.relative(options.projectRoot, `${targetDir}/${MAP_FILENAME}`);
-            await options.outputFS.writeFile(assetMapPath, JSON.stringify(assetMap), null);
+            const assetMapPath = 'dist/asset-map.json'; // path.relative(options.projectRoot, `${targetDir}/${MAP_FILENAME}`);
+            console.log("jd", assetMapPath);
+            await options.outputFS.writeFile(assetMapPath, JSON.stringify(assetMap, null, 2), null);
 
             console.log(`Asset map 🗺: ${assetMapPath}`);
         }
